@@ -1,0 +1,196 @@
+
+body {
+	background:#fff;
+	font: 9pt/12pt Arial, sans-serif, Tahoma;
+	margin:0;
+	padding:1em;}
+	
+
+h1 {
+	font-size:12pt;
+	margin:0.5em 0 0.6em 0.4em;}
+	
+h1 small {
+	margin-right:0.5em;
+	font-size:8pt;
+	float:right;
+	font-weight:normal;}
+	
+h1 span {
+	font-weight:normal;
+	font-size:18pt;
+	margin-right:0.5em;
+	float:right;}
+h1 span a {
+	text-decoration:none;}
+	
+label {
+	color:#666;
+	display:block;
+	font-size:8pt;}
+	
+hr {
+
+	border-color:#EEE; }
+	
+a, a:link { color:#00009F;}
+a:visited { color:#00759F; }
+a:hover { color:#559F00	; }
+	
+table.g { border-collapse:collapse; border-spacing:0px; padding:0;}
+	
+table.t {
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	-moz-box-shadow:0px 1px 0px #999;
+	box-shadow:0px 1px 0px #999;
+	border:1px solid #E1E1E1;
+	border-spacing:0px;
+	margin:1em 0 0.5em;
+	width:100%;}
+table.t caption { text-align:left;padding:0 0 0.2em 0.4em;font-weight:bold;}
+
+table.t th { 
+	font-weight:normal;
+	background:url("../img/fbg.gif") repeat-x scroll left center #EFEFEF;
+	border-bottom:2px solid #BDA4FF;
+	color:#666;
+	font-size:8pt;
+	padding:0.1em 0.2em 0.1em 0.6em;
+	text-align:left;
+	text-shadow:1px 1px 1px #FFFFFF;}
+table.t th a {text-decoration:none;color:#666;}
+table.t td { padding:0.2em 0.1em 0.2em 0.6em;}
+table.t .cl1 td { background:#F0FAFF; }	
+table.t .cl2 td { background:#E5F7FF; }
+
+
+table.t.my th { border-bottom:2px solid #FFC590;}
+table.t.my .cl1 td { background:#FFF7F0; }	
+table.t.my .cl2 td { background:#FFF1E3; }
+table.t tfoot td { border-top:1px solid #E1E1E1; padding:0.4em 0.4em 0.4em 0.6em;}
+	
+form.box {
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	-moz-box-shadow:0px 1px 0px #999;
+	box-shadow:0px 1px 0px #999;
+	background:#e5e5e5 url("../img/fbg.gif") top repeat-x;
+	border:1px solid #E4E4E4;
+	padding:0.4em 0.6em;}
+	
+input.text, input[disabled].text, select {
+	background:#fff;
+	border:1px solid #CCCCCC;
+	border-color:#CCCCCC #EEEEEE #EEEEEE #CCCCCC;
+	color:#333333;}
+	
+input.form, input[disabled].form, textarea {
+	background:#FFFFFF;
+	border:1px solid #AAAAAA;
+	border-color:#AAAAAA rgb(238, 238, 238) rgb(238, 238, 238) rgb(170, 170, 170);
+	margin:0em;
+	padding:1px;
+	line-height:normal;
+	font-weight:normal;
+	font-variant:normal;
+	font-style:normal;
+	font-stretch:normal;
+	font-size-adjust:normal;}
+
+input[disabled].form {
+	color:#666;}
+	
+	
+.ask {
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	-moz-box-shadow:0px 1px 0px #ccc;
+	box-shadow:0px 1px 0px #ccc;
+	border:1px solid #ededed;
+	padding:0.5em 1em;
+	margin:0.5em 0;}
+	
+.ask  .date {
+	float:right;
+	color:#999;}
+	
+.ask  .text{
+	margin:0.4em 0;
+	display:block;}
+	
+.ask  .author {
+	font-weight:bold;
+	color:#2E8000;}
+	
+.ask  .author img {
+	border:0;}
+	
+.ask  .author a {
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+	filter: alpha(opacity=60);	
+	opacity:0.6;
+	margin-left:0.2em;}
+	
+.ask  .author a:hover {
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);	
+	opacity:1;}
+	
+.ask.r2 {
+	background:#F6F6FF;}
+	
+.sub {
+	background:url("../img/ref.right.gif") 1.2em 0.6em no-repeat;
+	padding:0 0 0 1.8em;}
+	
+.sub .sublvl,
+.sub .lvl1,
+.sub .lvl2,
+.sub .lvl3,
+.sub .lvl4,
+.sub .lvl5,
+.sub .lvl6 {
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	border-radius:10px;
+	border-left:2px solid #9affeb;
+	padding:0 0 0 0.8em;}
+
+.sub .lvl1 { border-color:#9ab3ff;}
+.sub .lvl2 { border-color:#d1ff9a;}	
+.sub .lvl2 { border-color:#d1ff9a;}
+.sub .lvl3 { border-color:#ffbe9a;}
+.sub .lvl4 { border-color:#f7ff9a;}
+.sub .lvl5 { border-color:#ff9a9a;}
+	
+form.form{
+	margin:2em 0 0 1em;}
+	
+.preview {
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	-moz-box-shadow:0px 1px 0px #ccc;
+	box-shadow:0px 1px 0px #ccc;
+	padding:1em 0;
+	background:#000;
+	margin:1em 0 0;}
+	
+.preview img {border:0;}	
+.control { padding:0.5em;}
+.stat { margin:1em 1em 2em; }
+
+.aes, .desc { padding-right:1em; }
+.aes { background:url("../img/sort.aes.gif") center right no-repeat; }
+.desc { background:url("../img/sort.desc.gif") center right no-repeat; }
+
+.footer {
+	font-size:8pt;
+	color:#ccc;
+	border-top:1px solid #ccc;
+	padding:0.2em;
+	margin:1.5em 0.2em 1em;}

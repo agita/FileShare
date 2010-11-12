@@ -1,0 +1,1 @@
+<a href="?{$name}={$value|default:desc}{if $save}&{$save}{/if}{if $anchor}#{$anchor}{/if}" class="{$value|default:sort}">{$title}</a>
